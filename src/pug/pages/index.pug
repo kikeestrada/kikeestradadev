@@ -1,0 +1,22 @@
+extends ../config/template
+append config
+	-currentPage		= "home"
+	-siteName			= 'kikeestrada'
+	-content			= 'content'
+	-pageDescription	= 'This website contains a collection of projects developed by Enrique Estrada using a Gulp boilerplate developed by him'
+block main-header
+	+banner(
+		"https://images.pexels.com/photos/265614/pexels-photo-265614.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb",
+		'', 
+		'',
+		true,
+		''
+	)
+block main-container 
+	include ../includes/about
+	include ../includes/technical-skills
+	include ../includes/work-experience
+block main-footer
+block scripts
+
+

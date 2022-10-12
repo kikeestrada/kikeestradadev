@@ -1,0 +1,38 @@
+// Libraries
+@import "libraries/libraries";
+
+// Config
+@import "config/config";
+
+// LAYOUT
+// Escribe solo los estilos de layout (division en regiones del viewport)
+@import "layout/layout"; 
+
+// MODULOS (SMACSS) O COMPONENTES (ITCSS)
+@import "components/components";
+
+// Theme (colors and fonts)
+@import "theme/theme";
+
+// Utilities (hacks)
+// Todos los hacks que hayas necesitado para solucionar conflictos
+// o resolver situaciones extremas. Se espera poder mejorarlos luego.
+@import "hacks/hacks";
+fll{display: flex}
+.butons-news{
+	justify-content: space-between
+}
+
+.item-search{
+	margin-bottom: 3em;
+}
+
+
+.filterDiv { 
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
