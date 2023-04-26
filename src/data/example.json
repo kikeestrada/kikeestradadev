@@ -78,6 +78,12 @@
 				"title"		: "My PWA",
 				"source"	: "https://github.com/kikeestrada/my-pwa",
 				"live"		: "https://kikeestrada.github.io/my-pwa"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_shopping_card.png",
+				"title"		: "React Shopping Card",
+				"source"	: "https://kikeestrada.github.io/portfolioReactShopingCart",
+				"live"		: "https://github.com/kikeestrada/portfolioReactShopingCart"
 			}
 		]
 }
