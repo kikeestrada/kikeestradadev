@@ -20,6 +20,11 @@
 
 	&__link{
 		align-self: center;
+		font-weight: bold;
+		font-size: 20px;
+		@include from(m){
+			font-size: 30px;
+		}
 	}
 	&__logo{
 		height: 1.1rem;
