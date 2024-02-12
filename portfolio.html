@@ -1,9 +1,229 @@
-<!--mixins imported from myStylkeGuide--><!DOCTYPE html><html class="no-js" lang="en" prefix="og: http://ogp.me/ns#"><!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+
+<!--mixins imported from myStylkeGuide--><!DOCTYPE html>
+<html class="no-js" lang="en" prefix="og: http://ogp.me/ns#"><!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]><html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]--><head><meta charset="utf-8"><meta name="This website contains a collection of projects developed by Enrique Estrada using a Gulp boilerplate developed by him" content="content"><meta name="viewport" content="initial-scale=1.0, width=device-width"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="viewport" content="width = 320, initial-scale = 2.3, user-scalable = no"><meta name="viewport" content="width = device-width, initial-scale = 2.3, user-scalable = no"><meta name="viewport" content="width = device-width, initial-scale = 2.3, minimum-scale = 1, maximum-scale = 5"><meta name="viewport" content="width = 320, initial-scale = 2.3, user-scalable = no"><meta name="viewport" content="width=device-width, initial-scale=1.0"><!--X-UA-compatible--><meta http-equiv="X-UA-compatible" content="IE=11"><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9"><meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7"><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"><!--iphone--><meta name="apple-mobile-web-app-capable" content="yes"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" type="image/x-icon" href="img/favicon.png"><!--PWA tags here--><meta name="theme-color" content="#0096D9"><meta name="MobileOptimized" content="width"><meta name="HandheldFriendly" content="true"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><link rel="shortcut icon" type="image/png" href="./assets/img/icon_1024.png"><link rel="apple-touch-icon" href="./assets/img/icon_1024.png"><link rel="apple-touch-startup-image" href="./assets/img/icon_1024.png"><link rel="manifest" href="./manifest.json"><link rel="author" type="text/plain" href="./humans.txt"><link rel="sitemap" type="application/xml" title="Sitemap" href="./sitemap.xml"><!--[if lt IE 9]>
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="This website contains a collection of projects developed by Enrique Estrada using a Gulp boilerplate developed by him" content="content">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width = 320, initial-scale = 2.3, user-scalable = no">
+    <meta name="viewport" content="width = device-width, initial-scale = 2.3, user-scalable = no">
+    <meta name="viewport" content="width = device-width, initial-scale = 2.3, minimum-scale = 1, maximum-scale = 5">
+    <meta name="viewport" content="width = 320, initial-scale = 2.3, user-scalable = no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--X-UA-compatible-->
+    <meta http-equiv="X-UA-compatible" content="IE=11">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <!--iphone-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <!--PWA tags here-->
+    <meta name="theme-color" content="#0096D9">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="shortcut icon" type="image/png" href="./assets/img/icon_1024.png">
+    <link rel="apple-touch-icon" href="./assets/img/icon_1024.png">
+    <link rel="apple-touch-startup-image" href="./assets/img/icon_1024.png">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="author" type="text/plain" href="./humans.txt">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="./sitemap.xml"><!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]--><!--here is the Open Graph section--><!--here is the Tweeter Cards section--><!--here cdn fonts--><!--here is the cdn styles--><!-- Place your kit's code here -->
-<script src="https://kit.fontawesome.com/20f3c29ee8.js" crossorigin="anonymous"></script><link rel="stylesheet" href="assets/css/styles.css"><title>Portfolio | kikeestrada</title></head><body class="portfolio" itemscope itemtype="http://schema.org/WebPage"><!--[if lt IE 8]>
+<![endif]-->
+    <!--here is the Open Graph section-->
+    <!--here is the Tweeter Cards section-->
+    <!--here cdn fonts-->
+    <!--here is the cdn styles--><!-- Place your kit's code here -->
+<script src="https://kit.fontawesome.com/20f3c29ee8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Portfolio | kikeestrada</title>
+  </head>
+  <body class="portfolio" itemscope itemtype="http://schema.org/WebPage"><!--[if lt IE 8]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]--><!--here start the Main Header--><header class="main-header"><nav class="top-nav"><div class="top-nav__container"><a class="top-nav__link" href="./">Enrique Estrada<!--img(src='assets/img/logo_text.png', alt='', class='top-nav__logo')/--></a><ul class="top-nav__menu"><li class="top-nav__li"><a class="top-nav__anchor" href="./">Home</a></li><li class="top-nav__li"><a class="top-nav__anchor" href="portfolio.html">Portfolio</a></li></ul><button class="top-nav__mb-iconMenu hamburger hamburger--slider-r" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button></div></nav><div class="main-banner img-container diagonal main-banner--"><div class="ed-grid lg-grid-6"><div class="lg-cols-4 lg-x-2"><img class="main-banner__img" src="https://images.pexels.com/photos/265614/pexels-photo-265614.jpeg?w=1260&amp;h=750&amp;auto=compress&amp;cs=tinysrgb"/><div class="main-banner__data s-center"><p class="s-mb-0 t2">My Portfolio</p><p>Collection of Virtual projects and exercises developed by me</p></div></div></div></div></header><!--here ends the Main Header--><!--here start the Main Container--><main class="main-container"><section class="ed-container item-search"><div class="ed-item"><h1>Search Filter</h1></div><div class="ed-item m-50 l-40"><input type="search" id="searchInput" placeholder="search"></div></section><div class="ed-container"><div class="ed-item"></div></div><div class="ed-grid m-grid-2 l-grid-3 lg-grid-4 row-gap l-big-section"><article class="card class-item"><div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_77digital.png"></div><div class="card__data s-border s-radius-br s-radius-bl s-pxy-2"><div class="t5 s-mb-2 s-center">77 Digital</div><div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/portfolio77DigitalWebSite" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://kikeestrada.github.io/portfolio77DigitalWebSite/" target="_blank">gh-pages</a></div></div></article><article class="card class-item"><div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_bootstrap.png"></div><div class="card__data s-border s-radius-br s-radius-bl s-pxy-2"><div class="t5 s-mb-2 s-center">Bootstrap Website</div><div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/portfolio-css-frameworks" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://kikeestrada.github.io/portfolio-css-frameworks/bootstrap.html" target="_blank">gh-pages</a></div></div></article><article class="card class-item"><div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_cssvars.png"></div><div class="card__data s-border s-radius-br s-radius-bl s-pxy-2"><div class="t5 s-mb-2 s-center">CSS Vars Practice</div><div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/portfolio-css-vars-theme" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://kikeestrada.github.io/portfolio-css-vars-theme/index.html" target="_blank">gh-pages</a></div></div></article><article class="card class-item"><div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_esencialcr.png"></div><div class="card__data s-border s-radius-br s-radius-bl s-pxy-2"><div class="t5 s-mb-2 s-center">Esencial CR Website</div><div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/portfolioEsencialcrWebSite" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://kikeestrada.github.io/portfolioEsencialcrWebSite/" target="_blank">gh-pages</a></div></div></article><article class="card class-item"><div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_fundation.png"></div><div class="card__data s-border s-radius-br s-radius-bl s-pxy-2"><div class="t5 s-mb-2 s-center">Foundation Website</div><div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/portfolio-css-frameworks" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://kikeestrada.github.io/portfolio-css-frameworks/foundation.html" target="_blank">gh-pages</a></div></div></article><article class="card class-item"><div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_ahorrando.png"></div><div class="card__data s-border s-radius-br s-radius-bl s-pxy-2"><div class="t5 s-mb-2 s-center">Ahorrando Website</div><div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/portfolio-ahorrando" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://kikeestrada.github.io/portfolio-ahorrando" target="_blank">gh-pages</a></div></div></article><article class="card class-item"><div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_maratones.png"></div><div class="card__data s-border s-radius-br s-radius-bl s-pxy-2"><div class="t5 s-mb-2 s-center">Maratones Website</div><div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/portfolio-maratones" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://kikeestrada.github.io/portfolio-maratones/" target="_blank">gh-pages</a></div></div></article><article class="card class-item"><div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_materialize.png"></div><div class="card__data s-border s-radius-br s-radius-bl s-pxy-2"><div class="t5 s-mb-2 s-center">Materialize Website</div><div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/portfolio-css-frameworks" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://kikeestrada.github.io/portfolio-css-frameworks/materialize.html" target="_blank">gh-pages</a></div></div></article><article class="card class-item"><div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_nextjs.png"></div><div class="card__data s-border s-radius-br s-radius-bl s-pxy-2"><div class="t5 s-mb-2 s-center">Next JS - API</div><div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/portfolio-blog-nextjs" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://portfolio-blog-nextjs-nhcpt6ktv.now.sh/" target="_blank">gh-pages</a></div></div></article><article class="card class-item"><div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_vanilla_api_fetch.png"></div><div class="card__data s-border s-radius-br s-radius-bl s-pxy-2"><div class="t5 s-mb-2 s-center">Vanilla JS API Fetch</div><div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/portfolioVanillaJsApiFetch" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://kikeestrada.github.io/portfolioVanillaJsApiFetch/" target="_blank">gh-pages</a></div></div></article><article class="card class-item"><div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_villalapas.png"></div><div class="card__data s-border s-radius-br s-radius-bl s-pxy-2"><div class="t5 s-mb-2 s-center">Villa Lapas Web Site</div><div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/portfolioVillaLapasWebSite" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://kikeestrada.github.io/portfolioVillaLapasWebSite/" target="_blank">gh-pages</a></div></div></article><article class="card class-item"><div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_reveal.png"></div><div class="card__data s-border s-radius-br s-radius-bl s-pxy-2"><div class="t5 s-mb-2 s-center">UI Reveal Boilerplate</div><div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/reveal" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://kikeestrada.github.io/reveal" target="_blank">gh-pages</a></div></div></article><article class="card class-item"><div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_pwa.png"></div><div class="card__data s-border s-radius-br s-radius-bl s-pxy-2"><div class="t5 s-mb-2 s-center">My PWA</div><div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/my-pwa" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://kikeestrada.github.io/my-pwa" target="_blank">gh-pages</a></div></div></article><article class="card class-item"><div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_shopping_card.png"></div><div class="card__data s-border s-radius-br s-radius-bl s-pxy-2"><div class="t5 s-mb-2 s-center">React Shopping Card</div><div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://kikeestrada.github.io/portfolioReactShopingCart" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/portfolioReactShopingCart" target="_blank">gh-pages</a></div></div></article></div></main><!--here ends the Main Container--><!--here start the Main Footer--><footer class="main-footer"><div class="ed-container"><div class="ed-item"><h2>Contact</h2></div></div><div class="ed-grid m-grid-2 lg-grid-4 row-gap"><ul class="data-list"><li><i class="far fa-envelope"><a class="foot-icon" href="mailto:kikeestrada@gmail.com" target="_blank">Email</a></i></li><li><i class="fas fa-phone"><a class="foot-icon" href="tel:+50670118183&quot;" target="_blank">Phone Number</a></i></li></ul><ul class="data-list"><li><i class="fab fa-whatsapp"><a class="foot-icon" href="https://msng.link/o/?50670118183=wa" target="_blank">WhatsApp</a></i></li><li><i class="fab fa-linkedin-in"><a class="foot-icon" href="https://www.linkedin.com/in/enrique-jos%C3%A9-estrada-n%C3%BA%C3%B1ez-85610657/" target="_blank">Linkedln</a></i></li></ul><ul class="data-list"><li><i class="fab fa-facebook-f"><a class="foot-icon" href="https://www.facebook.com/enriquejose.estradanunez" target="_blank">Facebook</a></i></li><li><i class="fab fa-instagram"><a class="foot-icon" href="https://www.instagram.com/kikeestradacr/" target="_blank">Instagram</a></i></li></ul><ul class="data-list"><li><i class="fab fa-github"><a class="foot-icon" href="https://github.com/kikeestrada" target="_blank">Github</a></i></li><li><i class="fab fa-codepen"><a class="foot-icon" href="https://codepen.io/kikeestrada/" target="_blank">CodePen</a></i></li></ul></div></footer><!--here ends the Main Footer--><!--cdn libraries here--><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/prism.min.js"></script><script src="assets/js/scripts-min.js"></script></body></html>
+<![endif]-->
+    <!--here start the Main Header-->
+    <header class="main-header">
+      <nav class="top-nav">
+        <div class="top-nav__container"><a class="top-nav__link" href="./">Enrique Estrada
+            <!--img(src='assets/img/logo_text.png', alt='', class='top-nav__logo')/--></a>
+          <ul class="top-nav__menu">
+            <li class="top-nav__li"><a class="top-nav__anchor" href="./">Home</a></li>
+            <li class="top-nav__li"><a class="top-nav__anchor" href="portfolio.html">Portfolio</a></li>
+          </ul>
+          <button class="top-nav__mb-iconMenu hamburger hamburger--slider-r" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button>
+        </div>
+      </nav>
+      <div class="main-banner img-container diagonal main-banner--">
+        <div class="ed-grid lg-grid-6">
+          <div class="lg-cols-4 lg-x-2"><img class="main-banner__img" src="https://images.pexels.com/photos/265614/pexels-photo-265614.jpeg?w=1260&amp;h=750&amp;auto=compress&amp;cs=tinysrgb"/>
+            <div class="main-banner__data s-center">
+              <p class="s-mb-0 t2">My Portfolio</p>
+              <p>Collection of Virtual projects and exercises developed by me</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--here ends the Main Header-->
+    <!--here start the Main Container-->
+    <main class="main-container">
+      <section class="ed-container item-search">
+        <div class="ed-item">
+          <h1>Search Filter</h1>
+        </div>
+        <div class="ed-item m-50 l-40">
+          <input type="search" id="searchInput" placeholder="search">
+        </div>
+      </section>
+      <div class="ed-container">
+        <div class="ed-item"></div>
+      </div>
+      <div class="ed-grid m-grid-2 l-grid-3 lg-grid-4 row-gap l-big-section">
+              <article class="card class-item">
+                <div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_77digital.png"></div>
+                <div class="card__data s-border s-radius-br s-radius-bl s-pxy-2">
+                  <div class="t5 s-mb-2 s-center">77 Digital</div>
+                  <div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/portfolio77DigitalWebSite" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://kikeestrada.github.io/portfolio77DigitalWebSite/" target="_blank">gh-pages</a></div>
+                </div>
+              </article>
+              <article class="card class-item">
+                <div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_bootstrap.png"></div>
+                <div class="card__data s-border s-radius-br s-radius-bl s-pxy-2">
+                  <div class="t5 s-mb-2 s-center">Bootstrap Website</div>
+                  <div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/portfolio-css-frameworks" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://kikeestrada.github.io/portfolio-css-frameworks/bootstrap.html" target="_blank">gh-pages</a></div>
+                </div>
+              </article>
+              <article class="card class-item">
+                <div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_cssvars.png"></div>
+                <div class="card__data s-border s-radius-br s-radius-bl s-pxy-2">
+                  <div class="t5 s-mb-2 s-center">CSS Vars Practice</div>
+                  <div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/portfolio-css-vars-theme" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://kikeestrada.github.io/portfolio-css-vars-theme/index.html" target="_blank">gh-pages</a></div>
+                </div>
+              </article>
+              <article class="card class-item">
+                <div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_esencialcr.png"></div>
+                <div class="card__data s-border s-radius-br s-radius-bl s-pxy-2">
+                  <div class="t5 s-mb-2 s-center">Esencial CR Website</div>
+                  <div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/portfolioEsencialcrWebSite" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://kikeestrada.github.io/portfolioEsencialcrWebSite/" target="_blank">gh-pages</a></div>
+                </div>
+              </article>
+              <article class="card class-item">
+                <div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_fundation.png"></div>
+                <div class="card__data s-border s-radius-br s-radius-bl s-pxy-2">
+                  <div class="t5 s-mb-2 s-center">Foundation Website</div>
+                  <div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/portfolio-css-frameworks" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://kikeestrada.github.io/portfolio-css-frameworks/foundation.html" target="_blank">gh-pages</a></div>
+                </div>
+              </article>
+              <article class="card class-item">
+                <div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_ahorrando.png"></div>
+                <div class="card__data s-border s-radius-br s-radius-bl s-pxy-2">
+                  <div class="t5 s-mb-2 s-center">Ahorrando Website</div>
+                  <div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/portfolio-ahorrando" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://kikeestrada.github.io/portfolio-ahorrando" target="_blank">gh-pages</a></div>
+                </div>
+              </article>
+              <article class="card class-item">
+                <div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_maratones.png"></div>
+                <div class="card__data s-border s-radius-br s-radius-bl s-pxy-2">
+                  <div class="t5 s-mb-2 s-center">Maratones Website</div>
+                  <div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/portfolio-maratones" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://kikeestrada.github.io/portfolio-maratones/" target="_blank">gh-pages</a></div>
+                </div>
+              </article>
+              <article class="card class-item">
+                <div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_materialize.png"></div>
+                <div class="card__data s-border s-radius-br s-radius-bl s-pxy-2">
+                  <div class="t5 s-mb-2 s-center">Materialize Website</div>
+                  <div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/portfolio-css-frameworks" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://kikeestrada.github.io/portfolio-css-frameworks/materialize.html" target="_blank">gh-pages</a></div>
+                </div>
+              </article>
+              <article class="card class-item">
+                <div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_nextjs.png"></div>
+                <div class="card__data s-border s-radius-br s-radius-bl s-pxy-2">
+                  <div class="t5 s-mb-2 s-center">Next JS - API</div>
+                  <div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/portfolio-blog-nextjs" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://portfolio-blog-nextjs-nhcpt6ktv.now.sh/" target="_blank">gh-pages</a></div>
+                </div>
+              </article>
+              <article class="card class-item">
+                <div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_vanilla_api_fetch.png"></div>
+                <div class="card__data s-border s-radius-br s-radius-bl s-pxy-2">
+                  <div class="t5 s-mb-2 s-center">Vanilla JS API Fetch</div>
+                  <div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/portfolioVanillaJsApiFetch" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://kikeestrada.github.io/portfolioVanillaJsApiFetch/" target="_blank">gh-pages</a></div>
+                </div>
+              </article>
+              <article class="card class-item">
+                <div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_villalapas.png"></div>
+                <div class="card__data s-border s-radius-br s-radius-bl s-pxy-2">
+                  <div class="t5 s-mb-2 s-center">Villa Lapas Web Site</div>
+                  <div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/portfolioVillaLapasWebSite" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://kikeestrada.github.io/portfolioVillaLapasWebSite/" target="_blank">gh-pages</a></div>
+                </div>
+              </article>
+              <article class="card class-item">
+                <div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_reveal.png"></div>
+                <div class="card__data s-border s-radius-br s-radius-bl s-pxy-2">
+                  <div class="t5 s-mb-2 s-center">UI Reveal Boilerplate</div>
+                  <div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/reveal" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://kikeestrada.github.io/reveal" target="_blank">gh-pages</a></div>
+                </div>
+              </article>
+              <article class="card class-item">
+                <div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_pwa.png"></div>
+                <div class="card__data s-border s-radius-br s-radius-bl s-pxy-2">
+                  <div class="t5 s-mb-2 s-center">My PWA</div>
+                  <div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/my-pwa" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://kikeestrada.github.io/my-pwa" target="_blank">gh-pages</a></div>
+                </div>
+              </article>
+              <article class="card class-item">
+                <div class="img-container s-ratio-16-9 s-radius-tr s-radius-tl"><img src="assets/img/pf-images/pf_shopping_card.png"></div>
+                <div class="card__data s-border s-radius-br s-radius-bl s-pxy-2">
+                  <div class="t5 s-mb-2 s-center">React Shopping Card</div>
+                  <div class="s-justify"><a class="button--ghost-alert button--tiny" href="https://kikeestrada.github.io/portfolioReactShopingCart" target="_blank">Github</a><a class="button--ghost-alert button--tiny" href="https://github.com/kikeestrada/portfolioReactShopingCart" target="_blank">gh-pages</a></div>
+                </div>
+              </article>
+      </div>
+    </main>
+    <!--here ends the Main Container-->
+    <!--here start the Main Footer-->
+    <footer class="main-footer">
+      <div class="ed-container">
+        <div class="ed-item">
+          <h2>Contact</h2>
+        </div>
+      </div>
+      <div class="ed-grid m-grid-2 lg-grid-4 row-gap">
+        <ul class="data-list">
+          <li><i class="far fa-envelope"><a class="foot-icon" href="mailto:kikeestrada@gmail.com" target="_blank">Email</a></i></li>
+          <li><i class="fas fa-phone"><a class="foot-icon" href="tel:+50670118183&quot;" target="_blank">Phone Number</a></i></li>
+        </ul>
+        <ul class="data-list">
+          <li><i class="fab fa-whatsapp"><a class="foot-icon" href="https://msng.link/o/?50670118183=wa" target="_blank">WhatsApp</a></i></li>
+          <li><i class="fab fa-linkedin-in"><a class="foot-icon" href="https://www.linkedin.com/in/enrique-jos%C3%A9-estrada-n%C3%BA%C3%B1ez-85610657/" target="_blank">Linkedln</a></i></li>
+        </ul>
+        <ul class="data-list">
+          <li><i class="fab fa-facebook-f"><a class="foot-icon" href="https://www.facebook.com/enriquejose.estradanunez" target="_blank">Facebook</a></i></li>
+          <li><i class="fab fa-instagram"><a class="foot-icon" href="https://www.instagram.com/kikeestradacr/" target="_blank">Instagram</a></i></li>
+        </ul>
+        <ul class="data-list">
+          <li><i class="fab fa-github"><a class="foot-icon" href="https://github.com/kikeestrada" target="_blank">Github</a></i></li>
+          <li><i class="fab fa-codepen"><a class="foot-icon" href="https://codepen.io/kikeestrada/" target="_blank">CodePen</a></i></li>
+        </ul>
+      </div>
+    </footer>
+    <!--here ends the Main Footer-->
+    <!--cdn libraries here-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/prism.min.js"></script>
+    <script src="assets/js/scripts-min.js"></script>
+  </body>
+</html>
