@@ -84,6 +84,31 @@
 				"title"		: "React Shopping Card",
 				"source"	: "https://kikeestrada.github.io/portfolioReactShopingCart",
 				"live"		: "https://github.com/kikeestrada/portfolioReactShopingCart"
+			},
+
+			{
+				"img"		: "assets/img/godds.png",
+				"title"		: "Godds",
+				"source"	: "https://godds.com/",
+				"live"		: "https://godds.com/"
+			},
+			{
+				"img"		: "assets/img/insiders.png",
+				"title"		: "Insiders",
+				"source"	: "https://insidersbettingdigest.com",
+				"live"		: "https://insidersbettingdigest.com"
+			},
+			{
+				"img"		: "assets/img/sbai.png",
+				"title"		: "Sport Betting AI",
+				"source"	: "https://sportbettingai.com/",
+				"live"		: "https://sportbettingai.com/"
+			},
+			{
+				"img"		: "assets/img/cryptovig.png",
+				"title"		: "Cryptovig",
+				"source"	: "https://cryptovig.com/",
+				"live"		: "https://cryptovig.com/"
 			}
 		]
 }
